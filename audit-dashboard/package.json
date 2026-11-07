@@ -1,0 +1,13 @@
+{
+  "name": "audit-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261107.1",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.9.0"
+  }
+}

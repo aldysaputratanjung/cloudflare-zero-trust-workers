@@ -1,0 +1,10 @@
+{
+  "name": "audit-dashboard",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-07",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "d1_databases": [
+    { "binding": "AUDIT", "database_id": "7dd1a4cb-e6c3-450d-a3ae-3b053b7df717" }
+  ]
+}
